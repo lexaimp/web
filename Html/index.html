@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Супер сайт</title>
 </head>
+<body>
 <form action="localhost" method="post">
     <header>
         <h1>Супер сайт</h1>
@@ -13,15 +14,15 @@
     <main>
         <p><textarea rows="5" cols="15" name="appeal" placeholder="Обращение"></textarea></p>
         <p><b>Потыкайте на кнопки, успокойте свои нервы</b></p>
-        <p><input type="checkbox" name="option1" value="a1" checked>One<Br>
-            <input type="checkbox" name="option2" value="a2">two<Br>
-            <input type="checkbox" name="option3" value="a3">three<Br>
-            <input type="checkbox" name="option4" value="a4">four<Br>
+        <p><label><input type="checkbox" name="option1" value="a1" checked>One</label><br>
+            <label><input type="checkbox" name="option2" value="a2">two</label><br>
+            <label> <input type="checkbox" name="option3" value="a3" checked>three</label><br>
+            <label> <input type="checkbox" name="option4" value="a4">four</label><br>
 
         <p><b>Сколько вы готовы пожертвовать на исследования возможности колонизации Марса?</b></p>
-        <p><input name="donate" type="radio" value="1">0</p>
-        <p><input name="donate" type="radio" value="2">Нисколько</p>
-        <p><input name="donate" type="radio" value="3">Вы мне ещё должны останитесь</p>
+        <p><label><input name="donate" type="radio" value="1">0</label></p>
+        <p><label><input name="donate" type="radio" value="2">Нисколько</label></p>
+        <p><label><input name="donate" type="radio" value="3">Вы мне ещё должны останитесь</label></p>
         <p><input type="submit" value="Выбрать"></p>
 
         <p><select size="5" multiple name="animals[]">
@@ -33,9 +34,9 @@
 
         <p><label>Куда же без выпивки</label>
             <select size="1" name="drink">
-            <option value="wine">Вино</option>
-            <option value="Rom">Ром</option>
-        </select></p>
+                <option value="wine">Вино</option>
+                <option value="Rom">Ром</option>
+            </select></p>
 
         <input type="submit" value="Отправить">
     </main>
