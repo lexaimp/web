@@ -1,0 +1,29 @@
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: rgb(254, 238, 214);
+    color: rgb(103, 101, 101);
+    width: 750px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+p {
+    text-indent: 1em;
+}
+
+.strikeout {
+    text-decoration: line-through;
+}
+
+.bold {
+    color: rgb(55, 141, 178);
+    font-weight: bold;
+}
