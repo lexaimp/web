@@ -2,7 +2,6 @@ body {
     font-family: "Helvetica Neue", sans-serif;
     background-color: rgb(254, 238, 214);
     color: rgb(103, 101, 101);
-    width: 750px;
 }
 
 h1 {
@@ -11,12 +10,14 @@ h1 {
     text-transform: uppercase;
 }
 
-div {
-    margin-bottom: 10px;
-}
 
 p {
     text-indent: 1em;
+}
+
+#body {
+    margin: 20px auto auto;
+    max-width: 750px;
 }
 
 .strikeout {

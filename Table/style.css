@@ -1,0 +1,20 @@
+.tableStile {
+    font-family: "times new roman", sans-serif;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 18px;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+th, td {
+    border: 1px solid darkgrey;
+    padding: 10px 50px 10px 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: #eeeeee;
+}
