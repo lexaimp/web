@@ -1,20 +1,27 @@
-.tableStile {
-    font-family: "times new roman", sans-serif;
-    border-collapse: collapse;
-    text-align: left;
-    font-size: 18px;
+.indent {
+    margin: 15px;
+    max-width: 750px;
 }
 
-th {
+.table-style {
+    font-family: "arial", sans-serif;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 20px;
+    width: 100%;
+}
+
+.table-style th {
     background-color: #3498db;
     color: white;
 }
 
-th, td {
-    border: 1px solid darkgrey;
-    padding: 10px 50px 10px 10px;
+.table-style th, td {
+    border: 1px solid #cccccc;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
 }
 
-tr:nth-child(odd) {
+.table-style tr:nth-child(odd) {
     background-color: #eeeeee;
 }
